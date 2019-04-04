@@ -10,7 +10,6 @@ def load_template(file_name):
         lines = file.readlines()
         form = "\n".join(lines)
         file.close()
-        print(lines)
     except e:
         print(e)
     return form
